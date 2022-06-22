@@ -1,0 +1,485 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+img{
+    width: 20%;
+}
+
+
+.box{
+   
+    height: 50px;
+}
+.container{
+    max-width: 1170px;
+    margin: 100px auto;
+}
+
+.container-fluid{
+    max-width: 100%;
+    width: 100%;
+}
+/*contenitori*/
+
+.center{
+    justify-content: center;
+}
+
+
+.row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+[class*="col-"]{
+    flex: 0 0 auto;
+}
+
+
+.col{
+    flex-grow: 1;
+}
+
+
+.col-05{
+    flex-basis: calc( (100% / 12) * 0.5);
+    max-width: calc( ( 100% / 12 ) * 0.5);
+}
+
+.wh{
+    background-color: white;
+}
+
+.u7{
+    background-color: rgb(177, 182, 186) ;
+}
+.u8{
+    background-color: rgb(196, 202, 202) ;
+}
+.u9{
+    background-color: rgb(195, 205, 207) ;
+}
+.u10{
+    background-color: rgb(205, 211, 211) ;
+}
+.u11{
+    background-color: rgb(201, 211, 211) ;
+}
+.u12{
+    background-color: rgb(170, 180, 188) ;
+}
+
+
+.du6{
+    background-color: rgb(197, 203, 203);
+}
+.du7{
+    background-color: rgb(171, 177, 177);
+}
+.du8{
+    background-color: rgb(196, 201, 203);
+}
+.du9{
+    background-color: rgb(188, 193, 197);
+}
+.du10{
+    background-color: rgb(213, 220, 223);
+}
+.du11{
+    background-color: rgb(180, 187, 190);
+}
+.du12{
+    background-color: rgb(166, 177, 179);
+}
+.du13{
+    background-color: rgb(184, 191, 196);
+}
+.du14{
+    background-color: rgb(171, 179, 190);
+}
+
+.t6{
+    background-color: rgb(186, 186, 188);
+}
+.t7{
+    background-color: rgb(174, 169, 167);
+}
+.t8{
+    background-color: rgb(214, 192, 189);
+}
+.t9{
+    background-color: rgb(226, 191, 177);
+}
+.t10{
+    background-color: rgb(216, 185, 177);
+}
+.t11{
+    background-color: rgb(201, 169, 159);
+}
+.t12{
+    background-color: rgb(160, 144, 144);
+}
+.t13{
+    background-color: rgb(175, 180, 184);
+}
+.t14{
+    background-color: rgb(190, 196, 202);
+}
+
+.qr6{
+    background-color: rgb(159, 159, 157);
+}
+.qr7{
+    background-color: rgb(202, 173, 159);
+}
+.qr8{
+    background-color: rgb(229, 193, 178);
+}
+.qr9{
+    background-color: rgb(236, 201, 189);
+}
+.qr10{
+    background-color: rgb(224, 191, 174);
+}
+.qr11{
+    background-color: rgb(214, 176, 158);
+}
+.qr12{
+    background-color: rgb(174, 137, 120);
+}
+.qr13{
+    background-color: rgb(150, 139, 134);
+}
+.qr14{
+    background-color: rgb(167, 170, 175);
+}
+.qr15{
+    background-color: rgb(177, 187, 197);
+}
+
+.ci6{
+    background-color: rgb(177, 170, 167);
+}
+.ci7{
+    background-color: rgb(216, 176, 158);
+}
+.ci8{
+    background-color: rgb(230, 190, 174);
+}
+.ci9{
+    background-color: rgb(235, 208, 199);
+}
+.ci10{
+    background-color: rgb(238, 203, 189);
+}
+.ci11{
+    background-color: rgb(222, 180, 165);
+}
+.ci12{
+    background-color: rgb(183, 146, 129);
+}
+.ci13{
+    background-color: rgb(135, 117, 106);
+}
+.ci14{
+    background-color: rgb(156, 167, 169);
+}
+.ci15{
+    background-color: rgb(155, 165, 173);
+}
+
+.si6{
+    background-color: rgb(148, 139, 133);
+}
+.si7{
+    background-color: rgb(213, 176, 157);
+}
+.si8{
+    background-color: rgb(230, 195, 173);
+}
+.si9{
+    background-color: rgb(234, 201, 194);
+}
+.si10{
+    background-color: rgb(242, 203, 196);
+}
+.si11{
+    background-color: rgb(188, 146, 131);
+}
+.si12{
+    background-color: rgb(186, 149, 132);
+}
+.si13{
+    background-color: rgb(133, 105, 91);
+}
+.si14{
+    background-color: rgb(111, 116, 118);
+}
+.si15{
+    background-color: rgb(120, 132, 131);
+}
+
+.se6{
+    background-color: rgb(108, 93, 87);
+}
+.se7{
+    background-color: rgb(162, 125, 103);
+}
+.se8{
+    background-color: rgb(197, 164, 155);
+}
+.se9{
+    background-color: rgb(143, 92, 73);
+}
+.se10{
+    background-color: rgb(176, 126, 99);
+}
+.se11{
+    background-color: rgb(58, 28, 23);
+}
+.se12{
+    background-color: rgb(37, 14, 12);
+}
+.se13{
+    background-color: rgb(79, 61, 50);
+}
+.se14{
+    background-color: rgb(78, 78, 78);
+}
+.se15{
+    background-color: rgb(107, 117, 114);
+}
+
+
+.ot6{
+    background-color: rgb(160, 145, 139);
+}
+.ot7{
+    background-color: rgb(168, 130, 116);
+}
+.ot8{
+    background-color: rgb(172, 136, 122);
+}
+.ot9{
+    background-color: rgb(203, 167, 143);
+}
+.ot10{
+    background-color: rgb(203, 149, 136);
+}
+.ot11{
+    background-color: rgb(207, 175, 162);
+}
+.ot12{
+    background-color: rgb(192, 154, 135);
+}
+.ot13{
+    background-color: rgb(190, 150, 132);
+}
+.ot14{
+    background-color: rgb(86, 82, 80);
+}
+.ot15{
+    background-color: rgb(51, 42, 37);
+}
+
+.no6{
+    background-color: rgb(152, 142, 134);
+}
+.no7{
+    background-color: rgb(214, 171, 154);
+}
+.no8{
+    background-color: rgb(238, 200, 185);
+}
+.no9{
+    background-color: rgb(204, 170, 152);
+}
+.no10{
+    background-color: rgb(205, 156, 149);
+}
+.no11{
+    background-color: rgb(229, 188, 170);
+}
+.no12{
+    background-color: rgb(218, 173, 153);
+}
+.no13{
+    background-color: rgb(138, 107, 89);
+}
+.no14{
+    background-color: rgb(67, 60, 59);
+}
+.no15{
+    background-color: rgb(91, 92, 94);
+}
+
+.di6{
+    background-color: rgb(188, 152, 138);
+}
+.di7{
+    background-color: rgb(189, 153, 129);
+}
+.di8{
+    background-color: rgb(210, 163, 144);
+}
+.di9{
+    background-color: rgb(142, 91, 84);
+}
+.di10{
+    background-color: rgb(88, 58, 56);
+}
+.di11{
+    background-color: rgb(199, 152, 133);
+}
+.di12{
+    background-color: rgb(186, 140, 117);
+}
+.di13{
+    background-color: rgb(152, 122, 108);
+}
+.di14{
+    background-color: rgb(74, 63, 61);
+}
+
+.un7{
+    background-color: rgb(156, 125, 106);
+}
+.un8{
+    background-color: rgb(163, 117, 92);
+}
+.un9{
+    background-color: rgb(136, 89, 79);
+}
+.un10{
+    background-color: rgb(126, 52, 45);
+}
+.un11{
+    background-color: rgb(71, 52, 44);
+}
+.un12{
+    background-color: rgb(161, 119, 95);
+}
+.un13{
+    background-color: rgb(115, 100, 87);
+}
+.un14{
+    background-color: rgb(38, 37, 32);
+}
+
+.do7{
+    background-color: rgb(150, 131, 115);
+}
+.do8{
+    background-color: rgb(162, 111, 88);
+}
+.do9{
+    background-color: rgb(159, 110, 86);
+}
+.do10{
+    background-color: rgb(135, 106, 86);
+}
+.do11{
+    background-color: rgb(169, 120, 95);
+}
+.do12{
+    background-color: rgb(122, 96, 81);
+}
+.do13{
+    background-color: rgb(75, 64, 59);
+}
+
+
+.tr8{
+    background-color: rgb(148, 143, 139);
+}
+.tr9{
+    background-color: rgb(184, 158, 143);
+}
+.tr10{
+    background-color: rgb(195, 162, 153);
+}
+.tr11{
+    background-color: rgb(132, 112, 101);
+}
+.tr12{
+    background-color: rgb(100, 99, 103);
+}
+.tr13{
+    background-color: rgb(26, 15, 10);
+}
+.tr14{
+    background-color: rgb(1, 1, 3);
+}
+.tr15{
+    background-color: rgb(110, 119, 126);
+}
+
+.qt7{
+    background-color: rgb(52, 64, 73);
+}
+.qt8{
+    background-color: rgb(100, 82, 66);
+}
+.qt9{
+    background-color: rgb(72, 62, 63);
+}
+.qt10{
+    background-color: rgb(92, 93, 89);
+}
+.qt11{
+    background-color: rgb(21, 18, 13);
+}
+.qt12{
+    background-color: rgb(29, 18, 16);
+}
+.qt13{
+    background-color: rgb(54, 38, 31);
+}
+.qt14{
+    background-color: rgb(54, 45, 40);
+}
+.qt15{
+    background-color: rgb(0, 10, 12);
+}
+
+
+
+
+.q7{
+    background-color: rgb(4, 11, 12);
+}
+.q8{
+    background-color: rgb(143, 113, 95);
+}
+.q9{
+    background-color: rgb(72, 58, 55);
+}
+.q10{
+    background-color: rgb(64, 49, 45);
+}
+.q11{
+    background-color: rgb(46, 30, 30);
+}
+.q12{
+    background-color: rgb(62, 46, 39);
+}
+.q13{
+    background-color: rgb(104, 84, 71);
+}
+.q14{
+    background-color: rgb(6, 10, 20);
+}
+.q15{
+    background-color: rgb(2, 13, 17)
+}
+.q16{
+    background-color: rgb(2, 8, 16);
+}
+.q17{
+    background-color: rgb(19, 25, 33);
+}
