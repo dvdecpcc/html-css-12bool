@@ -2,11 +2,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
+    font-family: 'Press Start 2P', cursive;
 }
 
-img{
-    width: 20%;
+h1{
+    text-align: center;
+    margin-top: 20px;
+    color: rgb(126, 53, 45);
 }
 
 
@@ -23,7 +25,7 @@ img{
     max-width: 100%;
     width: 100%;
 }
-/*contenitori*/
+
 
 .center{
     justify-content: center;
