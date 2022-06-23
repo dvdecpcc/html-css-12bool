@@ -5,10 +5,10 @@
     font-family: 'Press Start 2P', cursive;
 }
 
-h1{
+h2{
     text-align: center;
     margin-top: 20px;
-    color: rgb(126, 53, 45);
+    color: rgb(173, 183, 193);
 }
 
 
@@ -18,7 +18,7 @@ h1{
 }
 .container{
     max-width: 1170px;
-    margin: 100px auto;
+    margin: 40px auto;
 }
 
 .container-fluid{
@@ -54,7 +54,7 @@ h1{
 }
 
 .wh{
-    background-color: white;
+    background-color: rgb(173, 183, 193);
 }
 
 .u7{
@@ -133,6 +133,9 @@ h1{
     background-color: rgb(190, 196, 202);
 }
 
+.qr5{
+    background-color: rgb(170, 179, 186);
+}
 .qr6{
     background-color: rgb(159, 159, 157);
 }
@@ -195,6 +198,9 @@ h1{
     background-color: rgb(155, 165, 173);
 }
 
+.si5{
+    background-color: rgb(167, 179, 186);
+}
 .si6{
     background-color: rgb(148, 139, 133);
 }
